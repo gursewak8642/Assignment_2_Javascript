@@ -1,0 +1,11 @@
+/* hide scrollbar but allow scrolling */
+
+.column {
+    -ms-overflow-style: hidden;
+    scrollbar-width: hidden;
+    overflow-y: hiddeen;
+}
+
+.column::-webkit-scrollbar {
+    display: none;
+}
